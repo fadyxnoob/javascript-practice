@@ -17,5 +17,10 @@ const gameName = new String('PUBG');
 // console.log(anotherString);
 
 const newStringOne = "                        Yasir                  "
-console.log(newStringOne);
-console.log(newStringOne.trim());
+// console.log(newStringOne);
+// console.log(newStringOne.trim());
+
+const url = "https://google.com/movies%village%4u.com"
+console.log(url);
+const newUrl = url.replace('%', '-');
+console.log(newUrl);
