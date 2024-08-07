@@ -61,7 +61,7 @@ function displayGuess(guess) {
   guessSlot.innerHTML += `${guess}, `;
   numGuess++;
   console.log(numGuess);
-  
+
   remaining.innerHTML = `${11 - numGuess} `;
 }
 
